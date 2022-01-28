@@ -1,0 +1,53 @@
+<template>
+  <div className="flex flex-col min-h-screen overflow-hidden">
+
+    <!-- Site header -->
+    <Header />
+
+    <!-- Page content -->
+    <main class="grow">
+
+      <!-- Page sections -->
+      <HeroHome />
+      <Super />
+      <FeaturesBlocks />
+      <FeaturesHome />
+      <FeaturesHome02 />
+      <FeaturesHome03 />
+      <Cta />
+
+    </main>
+    
+    <!-- Site footer -->
+    <Footer />    
+
+  </div>
+</template>
+
+<script>
+import Header from '../partials/Header.vue'
+import HeroHome from '../partials/HeroHome.vue'
+import Super from '../partials/Super.vue'
+import FeaturesBlocks from '../partials/FeaturesBlocks.vue'
+import FeaturesHome from '../partials/FeaturesHome.vue'
+import FeaturesHome02 from '../partials/FeaturesHome02.vue'
+import FeaturesHome03 from '../partials/FeaturesHome03.vue'
+import Cta from '../partials/Cta.vue'
+import Footer from '../partials/Footer.vue'
+
+
+export default {
+  name: 'Home',
+  components: {
+    Header,
+    HeroHome,
+    Super,
+    FeaturesBlocks,
+    FeaturesHome,
+    FeaturesHome02,
+    FeaturesHome03,
+    Cta,
+    Footer,
+},
+}
+</script>
