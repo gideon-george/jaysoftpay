@@ -80,33 +80,10 @@
               leave-to-class="opacity-0 translate-y-16"
             >
               <div class="w-full" v-show="tab === 2">
-                <img class="mx-auto shadow-2xl" src="../images/.jpg" width="768" height="474" alt="Features home 02" />
+                <img class="mx-auto shadow-2xl" src="../images/features-home-02.jpg" width="768" height="474" alt="Features home 02" />
               </div>
             </transition>
-            <transition
-              enter-active-class="transition ease-in-out duration-700 order-first"
-              enter-from-class="opacity-0 -translate-y-16"
-              enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="transition ease-in-out duration-300 absolute"
-              leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-16"
-            >
-              <div class="w-full" v-show="tab === 3">
-                <img class="mx-auto shadow-2xl" src="../images/.jpg" width="768" height="474" alt="Features home 03" />
-              </div>
-            </transition>
-            <transition
-              enter-active-class="transition ease-in-out duration-700 order-first"
-              enter-from-class="opacity-0 -translate-y-16"
-              enter-to-class="opacity-100 translate-y-0"
-              leave-active-class="transition ease-in-out duration-300 absolute"
-              leave-from-class="opacity-100 -translate-y-0"
-              leave-to-class="opacity-0 translate-y-16"
-            >
-              <div class="w-full" v-show="tab === 4">
-                <img class="mx-auto shadow-2xl" src="../images/.jpg" width="768" height="474" alt="Features home 04" />
-              </div>
-            </transition>                        
+               
           </div>
 
         </div>
