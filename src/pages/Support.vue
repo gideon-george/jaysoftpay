@@ -9,7 +9,7 @@
 
       <!-- Page sections -->
       <SupportHero />
-      <SupportContent />
+      
 
     </main>
 
@@ -22,7 +22,6 @@
 <script>
 import Header from '../partials/Header.vue'
 import SupportHero from '../partials/SupportHero.vue'
-import SupportContent from '../partials/SupportContent.vue'
 import Footer from '../partials/Footer.vue'
 
 export default {
@@ -30,7 +29,6 @@ export default {
   components: {
     Header,
     SupportHero,
-    SupportContent,
     Footer,
   },
 }
