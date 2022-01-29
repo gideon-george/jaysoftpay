@@ -15,7 +15,7 @@
               </svg>
             </router-link>
           </div>
-          <div class="text-lg font-bold text-slate-800">Jaysoftnet The smarter way to payment solutions.</div>
+          <div class="text-lg font-bold text-slate-800">Jaysoftpay The smarter way to payment solutions.</div>
         </div>
 
         <!-- 2nd block -->

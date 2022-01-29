@@ -84,17 +84,20 @@
             >
               <ul class="px-5 py-2">
                 <li>
-                  <router-link to="/pricing" class="flex font-medium text-slate-800 hover:text-blue-600 py-2">Pricing</router-link>
-                </li>
-                <li>
-                  <router-link to="/about" class="flex font-medium text-slate-800 hover:text-blue-600 py-2">About</router-link>
-                </li>
-                <li>
-                  <router-link to="/blog" class="flex font-medium text-slate-800 hover:text-blue-600 py-2">Blog</router-link>
-                </li>
-                <li>
-                  <router-link to="/wall-of-love" class="flex font-medium text-slate-800 hover:text-blue-600 py-2">Wall of Love</router-link>
-                </li>                
+              <router-link to="/#" class="font-medium text-indigo-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Payments</router-link>
+            </li>
+            <li>
+              <router-link to="/#" class="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Banking Plus</router-link>
+            </li>
+            <li>
+              <router-link to="/#" class="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Rize</router-link>
+            </li>
+            <li>
+              <router-link to="/#" class="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Resources</router-link>
+            </li>
+               <li>
+              <router-link to="/#" class="font-medium text-slate-800 hover:text-blue-600 dark:text-slate-400 dark:hover:text-blue-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">Partners</router-link>
+            </li>             
                 <li class="py-2 my-2 border-t border-b border-slate-200">
                   <span class="flex font-medium text-slate-800 hover:text-blue-600 py-2">Resources</span>
                   <ul class="pl-4">
