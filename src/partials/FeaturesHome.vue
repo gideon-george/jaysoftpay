@@ -80,7 +80,7 @@
               leave-to-class="opacity-0 translate-y-16"
             >
               <div class="w-full" v-show="tab === 2">
-                <img class="mx-auto shadow-2xl" src="../images/features-home-02.jpg" width="768" height="474" alt="Features home 02" />
+                <img class="mx-auto shadow-2xl" src="../images/features-home-02.png" width="768" height="474" alt="Features home 02" />
               </div>
             </transition>
                
