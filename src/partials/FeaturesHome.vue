@@ -9,7 +9,7 @@
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12">
           <h2 class="h2 font-playfair-display text-slate-800 mb-4">Supercharge your business with the all‑powerful <span class=" text-blue-700 ">Payment Gateway</span></h2>
-          <p class="text-xl text-slate-500">We make it easier for you to focus on building great products while we work on simplifying your payments. Focus on your business while we handle the complexities of payments for you</p>
+          <p class="text-xl text-slate-500">We make it easier for you to focus on building great products while we work on simplifying your payments. Focus on your business while we handle the complexities of payments for you.</p>
         </div>
 
         <!-- Section content -->
