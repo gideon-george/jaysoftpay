@@ -25,14 +25,20 @@
           </div>
 
           <!-- Hero image -->
+        <!-- Hero image -->
           <div data-aos="fade-left">
             <!-- Image -->
             <div class="flex justify-center items-center">
-              <div class="relative" data-aos="fade-up">
-                
-                <img class="mx-auto md:max-w-none shadow-inner rounded " src="../images/illustration-desktop.jpg" width="630" height="405" alt="Hero" />
+              <div class="relative">
+                <div class="absolute inset-0 pointer-events-none border-2 border-slate-700 mt-3 ml-3 translate-x-4 translate-y-4 -z-10" aria-hidden="true"></div>
+                <img class="mx-auto md:max-w-none"  src="../images/illustration-desktop.jpg" width="540" height="405" alt="Hero" />
               </div>
-             
+              <button class="absolute group" @click.stop="videoModalOpen = true" aria-controls="modal">
+                <svg class="w-16 h-16 fill-current sm:w-20 sm:h-20 group" viewBox="0 0 88 88" xmlns="http://www.w3.org/2000/svg">
+                  <circle class="text-white opacity-80 group-hover:opacity-100 transition duration-150 ease-in-out" cx="44" cy="44" r="44" />
+                  <path class="text-blue-600" d="M52 44a.999.999 0 00-.427-.82l-10-7A1 1 0 0040 37V51a.999.999 0 001.573.82l10-7A.995.995 0 0052 44V44c0 .001 0 .001 0 0z" />
+                </svg>
+              </button>
             </div>
 
             <Modal id="modal" ariaLabel="modal-headline" :modalOpen="videoModalOpen" @close-modal="videoModalOpen = false">
